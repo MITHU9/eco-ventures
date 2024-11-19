@@ -1,0 +1,227 @@
+[
+  {
+    "AdventureTitle": "Rainforest Canopy Zipline",
+    "Image": "https://www.illawarrafly.com.au/media/qmufujfm/ifly-zipline-60.jpg?center=0.629134939458245,0.26833333333333331&mode=crop&format=webp&quality=80&width=375",
+    "id": "ADV001",
+    "CategoryName": "Adventure Sports",
+    "ShortDescription": "Glide through the lush rainforest canopy on an exhilarating zipline tour.",
+    "AdventureCost": 120.0,
+    "BookingAvailability": "Available Year-Round",
+    "Location": "Costa Rica",
+    "Duration": "3 hours",
+    "AdventureLevel": "Moderate",
+    "IncludedItems": [
+      "Safety harness",
+      "Helmet",
+      "Guided tour",
+      "Refreshments"
+    ],
+    "EcoFriendlyFeatures": [
+      "Solar-powered facilities",
+      "Minimal environmental footprint"
+    ],
+    "MaxGroupSize": 10,
+    "SpecialInstructions": [
+      "Wear comfortable clothing and closed-toe shoes.",
+      "No loose items or jewelry.",
+      "Sign a waiver before participating."
+    ]
+  },
+  {
+    "AdventureTitle": "Coral Reef Snorkeling Expedition",
+    "Image": "https://www.islandexpeditions.com/sites/default/files/archived-blog-images/IE_Glovers_Snorkeling-44.jpg",
+    "id": "ADV002",
+    "CategoryName": "Marine Adventures",
+    "ShortDescription": "Explore vibrant coral reefs with marine experts and eco-friendly gear.",
+    "AdventureCost": 85.0,
+    "BookingAvailability": "March to November",
+    "Location": "Great Barrier Reef, Australia",
+    "Duration": "4 hours",
+    "AdventureLevel": "Easy",
+    "IncludedItems": [
+      "Snorkeling gear",
+      "Boat transfer",
+      "Refreshments",
+      "Certified guide"
+    ],
+    "EcoFriendlyFeatures": [
+      "Reef-safe sunscreen",
+      "Marine conservation efforts"
+    ],
+    "MaxGroupSize": 12,
+    "SpecialInstructions": [
+      "Avoid touching coral.",
+      "Bring a reusable water bottle.",
+      "Wear eco-friendly sunscreen."
+    ]
+  },
+  {
+    "AdventureTitle": "Mountain Wildflower Trek",
+    "Image": "https://images.axios.com/C8ecPlF8Jx38QJzUwZo71H322po=/0x0:4535x3401/768x576/2023/04/20/1682023454827.jpg",
+    "id": "ADV003",
+    "CategoryName": "Hiking and Trekking",
+    "ShortDescription": "Hike through beautiful mountain trails rich with wildflowers and scenic views.",
+    "AdventureCost": 50.0,
+    "BookingAvailability": "April to July",
+    "Location": "Rocky Mountains, USA",
+    "Duration": "5 hours",
+    "AdventureLevel": "Moderate",
+    "IncludedItems": ["Trail snacks", "Field guide", "Professional guide"],
+    "EcoFriendlyFeatures": [
+      "Leave-no-trace policy",
+      "Support for trail conservation"
+    ],
+    "MaxGroupSize": 15,
+    "SpecialInstructions": [
+      "Wear sturdy boots.",
+      "Bring a reusable water bottle.",
+      "Stay on marked trails."
+    ]
+  },
+  {
+    "AdventureTitle": "Mangrove Kayaking Experience",
+    "Image": "https://dvnak526bu6js.cloudfront.net/new/Manuel_Antonio/Tours/_1200x630_crop_center-center_82_none/hero_Mangrove-Kayak.jpg?mtime=1721783399",
+    "id": "ADV004",
+    "CategoryName": "Water Adventures",
+    "ShortDescription": "Paddle through serene mangrove forests and observe wildlife up close.",
+    "AdventureCost": 75.0,
+    "BookingAvailability": "Year-Round",
+    "Location": "Florida Everglades, USA",
+    "Duration": "3 hours",
+    "AdventureLevel": "Easy",
+    "IncludedItems": ["Kayak and paddle", "Life vest", "Waterproof bag"],
+    "EcoFriendlyFeatures": [
+      "Non-motorized transportation",
+      "Wildlife conservation support"
+    ],
+    "MaxGroupSize": 8,
+    "SpecialInstructions": [
+      "Wear light, quick-drying clothing.",
+      "Use biodegradable insect repellent.",
+      "Carry a reusable water bottle."
+    ]
+  },
+  {
+    "AdventureTitle": "Glacial Ice Climbing Adventure",
+    "Image": "https://media.wired.com/photos/65a6fa6386046da58ca6bc98/master/pass/iceclimbing-science-Arnold_TS_ICE_CRACK-BABY_D134679.jpg",
+    "id": "ADV005",
+    "CategoryName": "Extreme Sports",
+    "ShortDescription": "Challenge yourself with a guided glacial ice-climbing expedition.",
+    "AdventureCost": 250.0,
+    "BookingAvailability": "December to March",
+    "Location": "Iceland",
+    "Duration": "Full day",
+    "AdventureLevel": "Challenging",
+    "IncludedItems": [
+      "Climbing gear",
+      "Safety equipment",
+      "Professional guide"
+    ],
+    "EcoFriendlyFeatures": [
+      "Eco-friendly transportation",
+      "Minimum-impact practices"
+    ],
+    "MaxGroupSize": 6,
+    "SpecialInstructions": [
+      "Dress warmly in layers.",
+      "Follow guide instructions carefully.",
+      "Bring sunglasses to protect against glare."
+    ]
+  },
+  {
+    "AdventureTitle": "Safari in the Savannah",
+    "Image": "https://photos.tpn.to/ie/nj/gn/tt/653x490.jpg",
+    "id": "ADV006",
+    "CategoryName": "Wildlife Exploration",
+    "ShortDescription": "Witness incredible wildlife on a guided eco-safari through the savannah.",
+    "AdventureCost": 300.0,
+    "BookingAvailability": "June to October",
+    "Location": "Serengeti National Park, Tanzania",
+    "Duration": "Full day",
+    "AdventureLevel": "Moderate",
+    "IncludedItems": ["4x4 vehicle", "Guided tour", "Lunch and refreshments"],
+    "EcoFriendlyFeatures": [
+      "Carbon-neutral vehicles",
+      "Support for local wildlife initiatives"
+    ],
+    "MaxGroupSize": 10,
+    "SpecialInstructions": [
+      "Bring binoculars for better wildlife viewing.",
+      "Wear neutral colors to avoid disturbing animals.",
+      "Respect wildlife and maintain distance."
+    ]
+  },
+  {
+    "AdventureTitle": "Arctic Wildlife Cruise",
+    "Image": "https://www.expeditions.com/link/d76fa0bda58243f09af83d5433c7c8b5.aspx?quality=50&maxwidth=1920&format=jpg",
+    "id": "ADV007",
+    "CategoryName": "Marine Adventures",
+    "ShortDescription": "Cruise the Arctic waters to spot polar bears, seals, and whales.",
+    "AdventureCost": 400.0,
+    "BookingAvailability": "May to September",
+    "Location": "Svalbard, Norway",
+    "Duration": "2 days",
+    "AdventureLevel": "Moderate",
+    "IncludedItems": ["Meals on board", "Binoculars", "Wildlife guide"],
+    "EcoFriendlyFeatures": [
+      "Low-emission vessels",
+      "Ethical wildlife viewing policies"
+    ],
+    "MaxGroupSize": 20,
+    "SpecialInstructions": [
+      "Pack warm, waterproof clothing.",
+      "Follow crew instructions for safety.",
+      "Bring a reusable coffee mug."
+    ]
+  },
+  {
+    "AdventureTitle": "Jungle Night Safari",
+    "Image": "https://www.tourism-of-india.com/blog/wp-content/uploads/2017/09/corbett-national-park.jpg",
+    "id": "ADV008",
+    "CategoryName": "Wildlife Exploration",
+    "ShortDescription": "Experience the jungle's nocturnal life with expert guides.",
+    "AdventureCost": 95.0,
+    "BookingAvailability": "Year-Round",
+    "Location": "Borneo, Malaysia",
+    "Duration": "4 hours",
+    "AdventureLevel": "Easy",
+    "IncludedItems": ["Flashlights", "Safety gear", "Local guide"],
+    "EcoFriendlyFeatures": [
+      "Energy-efficient lighting",
+      "Wildlife conservation donations"
+    ],
+    "MaxGroupSize": 12,
+    "SpecialInstructions": [
+      "Wear dark, comfortable clothing.",
+      "Avoid using bright lights or flash photography.",
+      "Bring insect repellent."
+    ]
+  },
+  {
+    "AdventureTitle": "Volcanic Crater Trek",
+    "Image": "https://www.balitrekkingtrips.com/wp-content/uploads/2019/08/41_Bali_Volcano_Trekking.jpg",
+    "id": "ADV009",
+    "CategoryName": "Hiking and Trekking",
+    "ShortDescription": "Hike up to the edge of a stunning volcanic crater with panoramic views.",
+    "AdventureCost": 100.0,
+    "BookingAvailability": "April to September",
+    "Location": "Mount Batur, Bali, Indonesia",
+    "Duration": "6 hours",
+    "AdventureLevel": "Moderate",
+    "IncludedItems": [
+      "Breakfast at the summit",
+      "Flashlights for early start",
+      "Experienced guide"
+    ],
+    "EcoFriendlyFeatures": [
+      "Local guide employment",
+      "Trash-free trek policies"
+    ],
+    "MaxGroupSize": 15,
+    "SpecialInstructions": [
+      "Bring a jacket for chilly mornings.",
+      "Wear sturdy shoes for uneven terrain.",
+      "Carry a reusable bottle for water."
+    ]
+  }
+]
