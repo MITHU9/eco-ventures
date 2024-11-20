@@ -83,7 +83,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Compass className="h-8 w-8" />
-            <span className="font-bold text-xl">❄️ EcoVentures ❄️</span>
+            <span className="font-bold text-xl"> EcoVentures </span>
           </Link>
         </div>
 
