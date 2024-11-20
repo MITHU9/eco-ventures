@@ -11,6 +11,7 @@ const DynamicTitle = ({ location }) => {
       "/auth/login": "Login || EcoAdventure",
       "/auth/register": "Register || EcoAdventure",
       "/dashboard": "Dashboard || EcoAdventure",
+      "/contact": "Contact || EcoAdventure",
       "/update-profile": "Update-Profile || EcoAdventure",
       "/user-profile": "My-Profile || EcoAdventure",
       "/auth/forgot-password": "Forgot Password || EcoAdventure",

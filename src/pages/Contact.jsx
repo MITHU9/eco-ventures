@@ -3,14 +3,19 @@ import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import DynamicTitle from "../components/DynamicTitle";
+import { useLocation } from "react-router-dom";
 
 const Contact = () => {
+  const location = useLocation();
+
   useEffect(() => {
     AOS.init();
   }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-300 to-blue-600">
+      <DynamicTitle location={location} />
       <Navbar />
       <div className="max-w-7xl mx-auto py-8 border mt-4 rounded-lg shadow-lg mb-3">
         <form
