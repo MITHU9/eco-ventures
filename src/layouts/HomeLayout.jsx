@@ -8,14 +8,14 @@ const HomeLayout = () => {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-blue-50 to-blue-200">
         <span className="loading loading-bars loading-lg"></span>
       </div>
     );
   }
 
   return (
-    <div className="bg-gray-100 ">
+    <div className="bg-gradient-to-b from-blue-50 to-blue-200 ">
       <div className="w-full mx-auto">
         <Navbar />
       </div>

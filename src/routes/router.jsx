@@ -11,6 +11,7 @@ import ForgotPassword from "../pages/ForgotPassword";
 import Dashboard from "../pages/Dashboard";
 import UpdateProfile from "../pages/UpdateProfile";
 import UserProfile from "../pages/UserProfile";
+import Contact from "../pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -76,8 +77,9 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact",
-    element: <h2>Contact</h2>,
+    element: <Contact />,
   },
+
   {
     path: "*",
     element: <Error />,

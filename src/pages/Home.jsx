@@ -22,13 +22,13 @@ const Home = () => {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-blue-50 to-blue-200">
         <span className="loading loading-bars loading-lg"></span>
       </div>
     );
   }
   return (
-    <div className="mb-10">
+    <div className="mb-10 bg-gradient-to-b from-blue-50 to-blue-200">
       <DynamicTitle location={location} />
       <section>
         <Banner />
