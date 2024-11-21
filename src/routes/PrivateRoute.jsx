@@ -4,7 +4,7 @@ import { useAdventureContext } from "../context/Context";
 const PrivateRoute = ({ children }) => {
   const { user, loading } = useAdventureContext();
   const location = useLocation();
-  console.log(user);
+  //console.log(user);
 
   if (loading) {
     return (
@@ -18,6 +18,8 @@ const PrivateRoute = ({ children }) => {
     return children;
   }
 
-  return <Navigate state={location.pathname} to={"/auth/login"} />;
+  return (
+    <Navigate to={"/auth/login"} state={{ from: location.pathname }} replace />
+  );
 };
 export default PrivateRoute;

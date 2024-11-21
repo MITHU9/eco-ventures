@@ -23,6 +23,13 @@ const Error = () => {
           ❄
         </div>
       ))}
+      <h1
+        className="text-4xl py-2 font-bold text-blue-800"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
+        404
+      </h1>
 
       <h1
         className="text-4xl py-2 font-bold text-blue-800"
@@ -41,7 +48,7 @@ const Error = () => {
       </p>
       <Link
         to="/"
-        className="text-lg hover:text-blue-600 hover:underline font-semibold text-blue-900"
+        className="text-lg hover:text-blue-200 hover:underline font-semibold text-blue-900 bg-blue-400 px-4 py-2 rounded-md"
         data-aos="fade-up"
         data-aos-delay="400"
       >

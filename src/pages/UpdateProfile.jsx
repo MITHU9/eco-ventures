@@ -6,6 +6,7 @@ import { useAdventureContext } from "../context/Context";
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Bounce, toast, ToastContainer } from "react-toastify";
 
 const UpdateProfile = () => {
   const location = useLocation();
@@ -22,21 +23,26 @@ const UpdateProfile = () => {
     e.preventDefault();
 
     try {
-      if (user) {
-        await updateUser({
-          photoURL,
-          displayName,
-        });
-        alert("Profile updated successfully!");
-        navigate("/user-profile");
-        setPhotoURL("");
-        setDisplayName("");
-      } else {
-        alert("No user is logged in!");
-      }
+      await updateUser({
+        photoURL,
+        displayName,
+      });
+      navigate("/user-profile");
+      setPhotoURL("");
+      setDisplayName("");
     } catch (error) {
       console.error("Error updating profile: ", error.message);
-      alert("Failed to update profile. Please try again.");
+      toast.error("Failed to update profile. Please try again.", {
+        position: "top-center",
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
     }
   };
 
@@ -116,7 +122,7 @@ const UpdateProfile = () => {
           </form>
         </div>
       </div>
-
+      <ToastContainer />
       <Footer />
     </div>
   );

@@ -12,7 +12,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const location = useLocation();
 
-  //console.log(location);
+  console.log(location);
   const { signInWithGoogle, signInWithEmail, setLoading, loading } =
     useAdventureContext();
   const navigate = useNavigate();

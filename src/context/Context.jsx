@@ -19,6 +19,7 @@ const ContextProvider = ({ children }) => {
   const [adventures, setAdventures] = useState([]);
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
+  const [previousRoute, setPreviousRoute] = useState("/");
 
   //Authenticating the user
   const googleProvider = new GoogleAuthProvider();
@@ -66,6 +67,15 @@ const ContextProvider = ({ children }) => {
   }, []);
 
   useEffect(() => {
+    if (
+      location.pathname !== "/auth/login" &&
+      location.pathname !== "/auth/register"
+    ) {
+      setPreviousRoute(location.pathname);
+    }
+  }, [location.pathname]);
+
+  useEffect(() => {
     fetch("/data.json")
       .then((res) => res.json())
       .then((data) => {
@@ -78,7 +88,7 @@ const ContextProvider = ({ children }) => {
       });
   }, []);
 
-  //console.log(adventures);
+  //console.log(previousRoute);
   //console.log(user);
 
   return (
@@ -94,6 +104,7 @@ const ContextProvider = ({ children }) => {
         forgotPassword,
         user,
         updateUser,
+        previousRoute,
       }}
     >
       {children}

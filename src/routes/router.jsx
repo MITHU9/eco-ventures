@@ -12,6 +12,7 @@ import Dashboard from "../pages/Dashboard";
 import UpdateProfile from "../pages/UpdateProfile";
 import UserProfile from "../pages/UserProfile";
 import Contact from "../pages/Contact";
+import AuthRedirectWrapper from "./AuthRedirectWrapper";
 
 const router = createBrowserRouter([
   {
@@ -63,11 +64,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/auth/login",
-        element: <Login />,
+        element: (
+          <AuthRedirectWrapper>
+            <Login />
+          </AuthRedirectWrapper>
+        ),
       },
       {
         path: "/auth/register",
-        element: <Register />,
+        element: (
+          <AuthRedirectWrapper>
+            <Register />
+          </AuthRedirectWrapper>
+        ),
       },
       {
         path: "/auth/forgot-password",
