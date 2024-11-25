@@ -17,12 +17,14 @@ const Login = () => {
     useAdventureContext();
   const navigate = useNavigate();
 
+  const from = location.state?.from || "/";
+
   const handleGoogleSignIn = () => {
     signInWithGoogle()
       .then((res) => {
         if (res.user) {
           //console.log(res.user);
-          navigate(location.state ? location.state : "/");
+          navigate(from);
         } else {
           console.log("User not found");
         }
@@ -40,7 +42,7 @@ const Login = () => {
     signInWithEmail(email, password)
       .then((res) => {
         if (res.user) {
-          navigate(location.state ? location.state : "/");
+          navigate(from);
           setLoading(false);
           setError(null);
         } else {

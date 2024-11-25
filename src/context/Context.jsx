@@ -88,7 +88,7 @@ const ContextProvider = ({ children }) => {
       });
   }, []);
 
-  //console.log(previousRoute);
+  //console.log(location.pathname);
   //console.log(user);
 
   return (
