@@ -12,7 +12,6 @@ import Dashboard from "../pages/Dashboard";
 import UpdateProfile from "../pages/UpdateProfile";
 import UserProfile from "../pages/UserProfile";
 import Contact from "../pages/Contact";
-import AuthRedirectWrapper from "./AuthRedirectWrapper";
 
 const router = createBrowserRouter([
   {
