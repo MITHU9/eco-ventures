@@ -1,12 +1,13 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
 import { useAdventureContext } from "../context/Context";
 import DynamicTitle from "../components/DynamicTitle";
 
 const Login = () => {
+  const { user } = useAdventureContext();
   const [mail, setMail] = useState("");
   const [error, setError] = useState(null);
   const [showPassword, setShowPassword] = useState(false);
@@ -55,6 +56,10 @@ const Login = () => {
       })
       .finally(() => setLoading(false));
   };
+
+  if (user) {
+    return <Navigate to={from} />;
+  }
 
   if (loading) {
     return (

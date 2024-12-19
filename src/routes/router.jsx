@@ -59,24 +59,16 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "auth",
+    path: "/",
     element: <AuthLayout />,
     children: [
       {
         path: "/auth/login",
-        element: (
-          <AuthRedirectWrapper>
-            <Login />
-          </AuthRedirectWrapper>
-        ),
+        element: <Login />,
       },
       {
         path: "/auth/register",
-        element: (
-          <AuthRedirectWrapper>
-            <Register />
-          </AuthRedirectWrapper>
-        ),
+        element: <Register />,
       },
       {
         path: "/auth/forgot-password",
